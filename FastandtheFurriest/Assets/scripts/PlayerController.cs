@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+//Hey bro. How are you doing?
 public class PlayerController : MonoBehaviour {
 
 	float horizontalSpeed = 0;
