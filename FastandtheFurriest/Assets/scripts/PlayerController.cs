@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 //Hey bro. How are you doing?
+//Joel's comment
 public class PlayerController : MonoBehaviour {
   //a comment on the intended meaning of the follow code
 	float horizontalSpeed = 0;
