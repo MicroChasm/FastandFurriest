@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &165714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 497530}
+  - 82: {fileID: 8297192}
+  - 114: {fileID: 11432904}
+  m_Layer: 0
+  m_Name: NotePlayerLevel2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497530
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3494.0962, y: 101.90582, z: 306.875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &8297192
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165714}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.255
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11432904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba150de73dac244599bf3bd238f5336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Note1: {fileID: 8300000, guid: 409efb27773828f42b3003e0eb9d95f4, type: 3}
+  Note2: {fileID: 8300000, guid: a1c533be20ed20849a5fcfff30bb187c, type: 3}
+  Note3: {fileID: 8300000, guid: 091255a3e3b443d4d8c4db21068bb92d, type: 3}
+  Note4: {fileID: 8300000, guid: 26f0652d42ffa1144a1ba80c141a71e5, type: 3}
+  Note5: {fileID: 8300000, guid: 8b3e30a8b06b9894c90c5000af63ad2b, type: 3}
+  Note6: {fileID: 8300000, guid: 5dbfdc2fa1d10c548b34ac85083b2d81, type: 3}
+  Note7: {fileID: 8300000, guid: 34d944d354676b348a866da7fd2fb62c, type: 3}
+  Note8: {fileID: 8300000, guid: 88ef085f70f725f43a175657d6e9d5b2, type: 3}
+  Note9: {fileID: 8300000, guid: 34d944d354676b348a866da7fd2fb62c, type: 3}
+  Note10: {fileID: 8300000, guid: 88ef085f70f725f43a175657d6e9d5b2, type: 3}
+  Note11: {fileID: 8300000, guid: e42853dd4e4bc9848a6f5dfcb498a865, type: 3}
+  Note12: {fileID: 8300000, guid: 14bf657dcf31e2442aa88c0865098dfa, type: 3}
+  Note13: {fileID: 8300000, guid: c9d8885afa1b489489dcabd8fdd33223, type: 3}
+  Note14: {fileID: 8300000, guid: 2dc31d13dd7b02241a18e9c6ced38145, type: 3}
+  soundController: {fileID: 0}
+  cliptoPlay: 0
+  switchNote: 0
+  volume: 1
+  notePlayer: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Volume
+      value: 0.255
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 165714}
+  m_IsPrefabParent: 1
