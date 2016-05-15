@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 //Hey bro. How are you doing?
 public class PlayerController : MonoBehaviour {
-
+  //a comment on the intended meaning of the follow code
 	float horizontalSpeed = 0;
 	public float verticalSpeed = 0;
 	public float gravity = 0.1f;
